@@ -14,3 +14,7 @@
 - Select to see available products
 - Customer support options
 - Log-in/Register options are available on the home page
+
+- Be able to host from any server (not just Windows)
+- Be able to login from any page, not just support page
+- High security with user account
