@@ -14,3 +14,6 @@
 - Select to see available products
 - Customer support options
 - Log-in/Register options are available on the home page
+
+- The database stores the downloadables/executables
+- The database stores the user information
