@@ -17,3 +17,7 @@
 
 - The database stores the downloadables/executables
 - The database stores the user information
+
+- Be able to host from any server (not just Windows)
+- Be able to login from any page, not just support page
+- High security with user account
