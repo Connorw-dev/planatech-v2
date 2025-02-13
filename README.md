@@ -1,63 +1,57 @@
+# Plantech V2
+A modern redevelopment of [Platech Solutions website](https://planatechsolutions.com), developed as part of CP3407 Advanced Software Engineering at James Cook University.
 
-# plantech-v2
+## Team & Roles
+- Connor White (Role/primary responsibilities)
+- Liam Eime (Role/primary responsibilities)
+- Carl Estranero (Role/primary responsibilities)
+- Justin Fagg (Role/primary responsibilities)
 
-This a project assignment template for CP3407. 
-The following is the list of items, which are required to be completed.
+## Requirements
+Our project requirements are managed through [GitHub Projects](link-to-your-project-board). We use this to:
+- Track user stories and their priorities
+- Assign story point estimates
+- Organize stories into iterations
+- Monitor development progress
 
-## How to submit [You may delete this before submitting]
+User stories are organized into:
+- Backlog (all potential features)
+- Iteration 1 (4 weeks: DATE - DATE)
+- Iteration 2 (4 weeks: DATE - DATE)
 
-2. Add your instructor (JCU-Australia: jc138691@gmail.com Dmitry Konovalov) as a team member to view your project on github
-1. Submit link to your repository
-2. Download your github repository as a zip file and submit via LearnJCU.
+Each story includes:
+- Priority (10-50, with 10 being highest)
+- Time estimate in days
+- Assigned developer(s)
+- Status tracking
 
-## Team
+## Design
+### Architectural Design
+UML diagrams and explanations of major components (using online UML tool)
 
-It is recommended to complete this assignment in a group of 2-4 students.
-1. Connor White
-2. Liam Eime
-3. Carl Estranero
-4. Justin Fagg
+### Database Design
+Database schema and relationships (using GenMyModel)
 
+### Interface Design
+UI/UX prototypes and design decisions (using NinjaMock)
 
-# Project planning BEFORE iteration-1, (see chapters 1-3)
-Checklist/TODOs: 
-* Update the following during each week prac session
-* github entry timestamp is BEFORE the iteration-1
-* User stories are correct: see p39
-* Must have more user stories than fits into iterations 1 and 2. To practice the priority.
-* [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
-* ...
+## Implementation
+- How we use GitHub/git for version control
+- Key software development tools used
+- External libraries and their purposes
 
-Total: YY days
+## Testing
+How we validate features against requirements, including:
+- Test-driven development approach
+- Acceptance testing process
+- Testing datasets
 
+## Agile Process
+We use GitHub Projects as our primary project management tool to implement iterative development. Our board includes:
+- User Stories (requirements tracking)
+- In Progress (current development)
+- Completed (finished work)
+- Next (upcoming work)
 
-## Iteration 1 [duration 3-4 weeks], add your start and end dates 
-
-* Goal is to have 2 iterations during a trimester of teaching.
-* Update the following during each week prac session
-* During pracs, you may experiment with using other github ways of tracking changes, e.g. via pull requests.
-
-1. [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
-2. ...
-
-Total: YY days
-
-
-### Iteration 2 [duration 3-4 weeks], add your start and end dates
-Goal is to have 2 iterations during a trimester of teaching.
-1. [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
-2. ...
-
-Total: YY days
-
-### Not enough time/developers: 
-1. [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
-2. ...
-
-Total: YY days
-
-# Actual iterations
-1. [Iteration-1](./iteration_1.md)
-2. [Iteration-2](./iteration_2.md)
-
-
+## Deployment
+Instructions for deploying and running the project
