@@ -53,5 +53,14 @@ We use GitHub Projects as our primary project management tool to implement itera
 - Completed (finished work)
 - Next (upcoming work)
 
+### Team Velocity
+Initial velocity calculation:
+- Team size: 4 developers
+- Working days per iteration: 20 days
+- Initial velocity factor: 0.7 (conservative estimate for new team)
+- Work capacity per iteration: 4 × 20 × 0.7 = 56 developer-days
+
+This means our team can handle approximately 56 days worth of user story estimates per iteration.
+
 ## Deployment
 Instructions for deploying and running the project
