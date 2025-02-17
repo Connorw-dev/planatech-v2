@@ -2,28 +2,31 @@
 A modern redevelopment of [Platech Solutions website](https://planatechsolutions.com), developed as part of CP3407 Advanced Software Engineering at James Cook University.
 
 ## Team & Roles
-- Connor White (Role/primary responsibilities)
-- Liam Eime (Role/primary responsibilities)
-- Carl Estranero (Role/primary responsibilities)
-- Justin Fagg (Role/primary responsibilities)
+- Connor White
+- Liam Eime
+- Carl Estranero
+- Justin Fagg
 
-## Requirements
-Our project requirements are managed through [GitHub Projects](link-to-your-project-board). We use this to:
+## Agile Process
+Our project requirements are managed through [GitHub Projects](https://github.com/users/Connorw-dev/projects/2/). We use this to:
 - Track user stories and their priorities
 - Assign story point estimates
-- Organize stories into iterations
+- Organise stories into iterations
 - Monitor development progress
 
-User stories are organized into:
-- Backlog (all potential features)
-- Iteration 1 (4 weeks: DATE - DATE)
-- Iteration 2 (4 weeks: DATE - DATE)
+- ### Team Velocity
+Initial velocity calculation:
+- Team size: 4 developers
+- Working days per iteration: 2 days a week × 4 weeks = 8 days
+- Initial velocity factor: 0.7 (conservative estimate for new team)
+- Work capacity per iteration: 4 × 8 × 0.7 = 22.4 developer-days
 
-Each story includes:
-- Priority (10-50, with 10 being highest)
-- Time estimate in days
-- Assigned developer(s)
-- Status tracking
+This means our team can handle approximately 22 days worth of user story estimates per iteration.
+
+User stories are organised into:
+- Backlog (all potential features)
+- Iteration 1 (4 weeks: Feb 17 - Mar 16)
+- Iteration 2 (4 weeks: Mar 17 - Apr 13)
 
 ## Design
 ### Architectural Design
@@ -45,22 +48,6 @@ How we validate features against requirements, including:
 - Test-driven development approach
 - Acceptance testing process
 - Testing datasets
-
-## Agile Process
-We use GitHub Projects as our primary project management tool to implement iterative development. Our board includes:
-- User Stories (requirements tracking)
-- In Progress (current development)
-- Completed (finished work)
-- Next (upcoming work)
-
-### Team Velocity
-Initial velocity calculation:
-- Team size: 4 developers
-- Working days per iteration: 20 days
-- Initial velocity factor: 0.7 (conservative estimate for new team)
-- Work capacity per iteration: 4 × 20 × 0.7 = 56 developer-days
-
-This means our team can handle approximately 56 days worth of user story estimates per iteration.
 
 ## Deployment
 Instructions for deploying and running the project
