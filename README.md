@@ -1,63 +1,91 @@
+# Plantech V2
+A modern redevelopment of [Platech Solutions website](https://planatechsolutions.com), developed as part of CP3407 Advanced Software Engineering at James Cook University.
 
-# plantech-v2
+## Team & Roles
+- Connor White
+- Liam Eime
+- Carl Estranero
+- Justin Fagg
 
-This a project assignment template for CP3407. 
-The following is the list of items, which are required to be completed.
+## Agile Process
+Our project requirements are managed through [GitHub Projects](https://github.com/users/Connorw-dev/projects/2/). We use this to:
+- Track user stories and their priorities
+- Assign story point estimates
+- Organise stories into iterations
+- Monitor development progress
 
-## How to submit [You may delete this before submitting]
+- ### Team Velocity
+Initial velocity calculation:
+- Team size: 4 developers
+- Working days per iteration: 2 days a week × 4 weeks = 8 days
+- Initial velocity factor: 0.7 (conservative estimate for new team)
+- Work capacity per iteration: 4 × 8 × 0.7 = 22.4 developer-days
 
-2. Add your instructor (JCU-Australia: jc138691@gmail.com Dmitry Konovalov) as a team member to view your project on github
-1. Submit link to your repository
-2. Download your github repository as a zip file and submit via LearnJCU.
+This means our team can handle approximately 22 days worth of user story estimates per iteration.
 
-## Team
+User stories are organised into:
+- Backlog (all potential features)
+- Iteration 1 (4 weeks: Feb 17 - Mar 16)
+- Iteration 2 (4 weeks: Mar 17 - Apr 13)
 
-It is recommended to complete this assignment in a group of 2-4 students.
-1. Connor White
-2. Liam Eime
-3. Carl Estranero
-4. Justin Fagg
+## Design
+### Architectural Design
+UML diagrams and explanations of major components (using online UML tool)
 
+### Database Design
+Database schema and relationships (using GenMyModel)
 
-# Project planning BEFORE iteration-1, (see chapters 1-3)
-Checklist/TODOs: 
-* Update the following during each week prac session
-* github entry timestamp is BEFORE the iteration-1
-* User stories are correct: see p39
-* Must have more user stories than fits into iterations 1 and 2. To practice the priority.
-* [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
-* ...
+### Interface Design
+UI/UX prototypes and design decisions (using NinjaMock)
 
-Total: YY days
+## Implementation
+- How we use GitHub/git for version control
+- Key software development tools used
+- External libraries and their purposes
 
+## Testing
+How we validate features against requirements, including:
+- Test-driven development approach
+- Acceptance testing process
+- Testing datasets
 
-## Iteration 1 [duration 3-4 weeks], add your start and end dates 
-
-* Goal is to have 2 iterations during a trimester of teaching.
-* Update the following during each week prac session
-* During pracs, you may experiment with using other github ways of tracking changes, e.g. via pull requests.
-
-1. [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
-2. ...
-
-Total: YY days
-
-
-### Iteration 2 [duration 3-4 weeks], add your start and end dates
-Goal is to have 2 iterations during a trimester of teaching.
-1. [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
-2. ...
-
-Total: YY days
-
-### Not enough time/developers: 
-1. [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
-2. ...
-
-Total: YY days
-
-# Actual iterations
-1. [Iteration-1](./iteration_1.md)
-2. [Iteration-2](./iteration_2.md)
+## Deployment
+Instructions for deploying and running the project
 
 
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+### Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+### Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+### Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
